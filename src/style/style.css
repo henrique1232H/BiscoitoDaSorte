@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(42deg, #190361 50%, #BB00FF 100%);
+    background-size: 200% 200%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    animation: backgroundAnimate 10s alternate infinite;
+}
+
+
+main {
+    width: min(42.8rem, 90%);
+    height: 42.4rem;
+    border-radius: .5rem;
+    box-shadow: 5px 0px 10px 2px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 4.8rem 6.4rem;
+    color: #34355B;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.screen1 {
+    height: auto;
+    
+}
+
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+
+.DisplayNone {
+    display: none;
+} 
+
+.screen1 h1 {
+    font-size: 2.4rem;
+}
+
+h1, p, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.mainBigger {
+    height: 56.4rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.imgClick {
+    cursor: pointer;
+}
+
+.imgClick:hover {
+    animation: shake 100ms alternate infinite;
+}
+
+.sort {
+    position: relative;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+
+.sort div {
+    height: auto;
+    width: 20vw;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    background: #E4EDf1;
+    padding: 1rem;
+    color: #000;
+    text-align: center;
+    animation: sort 2s alternate forwards;
+    position: absolute;
+    left: -15rem;
+}
+
+
+
+button {
+    padding: 1.6rem;
+    background: #ff9500;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-.3rem, 3rem) rotate(3deg);
+    }
+
+    50% {
+        transform: translate(-.1rem, -.2rem) rotate(1deg) ;
+    }
+
+    100% {
+        transform: translate(-.2rem, 4rem) rotate(2eg);
+    }
+}
+
+
+@keyframes sort {
+    0% {
+        transform: translateY(40%);
+        width: 20%;
+        border-radius: 50px;
+        height: auto;
+        opacity: 0;
+    }
+
+
+    100% {
+        transform:  translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes backgroundAnimate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 50rem) {
+
+    .sort {
+        width: 100%;
+    }
+
+    .sort div {
+        width: 100%;
+        left: 0;
+    }
+}
