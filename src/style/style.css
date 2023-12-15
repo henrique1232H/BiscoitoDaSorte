@@ -21,7 +21,7 @@ body {
 
 
 main {
-    width: min(42.8rem, 90%);
+    width: min(42.8rem, 100%);
     height: 42.4rem;
     border-radius: .5rem;
     box-shadow: 5px 0px 10px 2px;
@@ -44,7 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     position: relative;
 }
 
@@ -82,15 +82,14 @@ p {
 }
 
 .sort {
-    position: relative;
     height: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 
 .sort div {
     height: auto;
-    width: 20vw;
+    width: 100%;
     box-shadow: 1px 1px 1px 1px #ccc;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
@@ -99,8 +98,8 @@ p {
     color: #000;
     text-align: center;
     animation: sort 2s alternate forwards;
-    position: absolute;
     left: -15rem;
+    margin-top: 2rem;
 }
 
 
@@ -166,5 +165,9 @@ button {
     .sort div {
         width: 100%;
         left: 0;
+    }
+
+    main {
+        padding: 4rem 2rem;
     }
 }
