@@ -125,18 +125,13 @@ button {
         transform: translate(-.1rem, -.2rem) rotate(1deg) ;
     }
 
-    100% {
-        transform: translate(-.2rem, 4rem) rotate(2eg);
-    }
 }
+
 
 
 @keyframes sort {
     0% {
-        transform: translateY(40%);
-        width: 20%;
-        border-radius: 50px;
-        height: auto;
+        transform: translateY(10rem);
         opacity: 0;
     }
 

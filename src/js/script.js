@@ -16,7 +16,9 @@ const messageForFortuneCookie = () => {
         
         "Todos os dias organiza os seus cabelos, por que não faz o mesmo com o coração?",
         
-        "Há três coisas que jamais voltam; a flecha lançada, a palavra dita e a oportunidade perdida."
+        "Há três coisas que jamais voltam; a flecha lançada, a palavra dita e a oportunidade perdida.",
+
+        "A juventude não é uma época da vida, é um estado de espírito."
     ]
 }
 
