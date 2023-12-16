@@ -18,7 +18,17 @@ const messageForFortuneCookie = () => {
         
         "Há três coisas que jamais voltam; a flecha lançada, a palavra dita e a oportunidade perdida.",
 
-        "A juventude não é uma época da vida, é um estado de espírito."
+        "A juventude não é uma época da vida, é um estado de espírito.",
+
+        "Podemos escolher o que semear, mas somos obrigados a colher o que plantamos.",
+
+        "Dê toda a atenção á formação dos seus filhos, sobretudo com bons exemplos da sua própria vida.",
+
+        "Siga os bons e aprenda com eles.",
+
+        "Não importa o tamanho da montanha, ela não pode tapar o sol.",
+
+        "O bom-senso vale mais do que muito conhecimento."
     ]
 }
 
